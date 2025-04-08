@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>MyPortfolio</h1>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="section">
+      <div class="content">
+        <h2>Hello, I'm <span class="highlight">Manas Raizada</span></h2>
+        <p>A passionate Web Developer</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I'm a web developer who loves creating beautiful, responsive websites
+        and web apps. I specialize in HTML, CSS, JavaScript, and modern frontend
+        frameworks.
+      </p>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <h3>ResumeBeeATS: Build And Score My resume</h3>
+          <p>
+            A Webpage for users to input their information, select desired
+            templates and layouts generate well-formatted resumes in various
+            formats. It also provides an appropriate ATS score and gives
+            suggestions for changes in resume regarding any company criteria the
+            candidate wants to apply for.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>To-Do List</h3>
+          <p>
+            A simple and interactive To-Do List application built using HTML,
+            CSS, and JavaScript. It allows users to add, delete, and mark tasks
+            as completed. The app features a clean and responsive design, and
+            utilizes localStorage to save tasks even after the browser is
+            closed. Ideal for practicing DOM manipulation and basic CRUD
+            operations with vanilla JavaScript.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
