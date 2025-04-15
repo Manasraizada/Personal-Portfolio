@@ -7,7 +7,7 @@
   body {
     font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(45deg, #beb6e7, #00ff04);
+    background: linear-gradient(90deg, #beb6e7, #00ff04);
     color: #333;
   }
   
@@ -46,7 +46,7 @@
   }
   
   .section {
-    padding: 60px 20px;
+    padding: 20px 20px;
     max-width: 1000px;
     margin: auto;
   }
@@ -69,7 +69,7 @@
   }
   
   .project-card {
-    background: #fff;
+    background: linear-gradient(90deg, #beb6e7, #00ff04);
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     flex: 1 1 calc(50% - 20px);
